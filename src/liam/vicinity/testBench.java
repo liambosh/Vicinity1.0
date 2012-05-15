@@ -22,7 +22,13 @@ public class testBench extends ActionBar {
 		setContentView(R.layout.home_screen);
 		ActionBar = super.CreateActionBar();
 		LinearLayout l = (LinearLayout) findViewById(R.id.LL1);
-		//l.addView(ActionBar);
+		
+		LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+				RelativeLayout.LayoutParams.WRAP_CONTENT,
+				RelativeLayout.LayoutParams.WRAP_CONTENT);
+		lp.
+		l.addView(ActionBar);
+		l.
 		
 		
 		
